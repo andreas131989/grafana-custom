@@ -16,7 +16,7 @@ spec:
         name: grafana
     spec:
       containers:
-      - image: grafana/grafana:5.4.3
+      - image: andreas131989/test:0.1
         imagePullPolicy: Always
         name: grafana
         ports:
